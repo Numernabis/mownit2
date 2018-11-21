@@ -1,3 +1,4 @@
+size, method, time
 100, naive, 0.032074
 100, better, 0.006966
 200, naive, 0.059361

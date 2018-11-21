@@ -1,0 +1,10 @@
+instalacja GSL:
+https://coral.ise.lehigh.edu/jild13/2016/07/11/hello/
+
+kompilacja programu (statycznie):
+$ gcc -static -I $HOME/gsl/include -L $HOME/gsl/lib main.c -lgsl -lgslcblas -lm
+
+uruchomienie:
+$ ./a.out
+
+pomiary s¹ zapisane w pliku .csv
