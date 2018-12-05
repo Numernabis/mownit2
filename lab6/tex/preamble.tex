@@ -1,0 +1,59 @@
+% Ludwik Ciechański
+\documentclass[12pt]{article}
+    
+\usepackage[T1]{fontenc}
+\usepackage{beramono}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\usepackage{listings}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{color}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage[font=small]{caption}
+
+\newcommand{\cFaculty}[1]{\Large \textsc{#1}\par}
+\newcommand{\cSubject}[1]{\Large #1\par}
+\newcommand{\cTitle}[1]{\LARGE \textbf{#1}\par}
+\newcommand{\cAuthors}[1]{\large #1\par}
+\newcommand{\cDate}[1]{\small #1\par}
+
+\setcounter{section}{-1}
+\graphicspath{ {images/} }
+\titlespacing{\section}{0pt}{2pt}{2pt}
+\titlespacing{\subsection}{0pt}{3pt}{2pt}
+
+%%
+%% Julia definition (c) 2014 Jubobs
+%%
+\lstdefinelanguage{Julia}
+  {morekeywords={abstract,break,case,catch,const,continue,do,else,elseif,
+      end,export,false,for,function,immutable,import,importall,if,in,
+      macro,module,otherwise,quote,return,switch,true,try,type,typealias,
+      using,while},
+   sensitive=true,
+   alsoother={$},
+   morecomment=[l]\#,
+   morecomment=[n]{\#=}{=\#},
+   morestring=[s]{"}{"},
+   morestring=[m]{'}{'},
+}[keywords,comments,strings]
+
+\lstset{
+  language         = Julia,
+  basicstyle       = \ttfamily,
+  keywordstyle     = \bfseries\color{blue},
+  stringstyle      = \color{magenta},
+  commentstyle     = \color{ForestGreen},
+  showstringspaces = false,
+  aboveskip=3mm,
+  belowskip=3mm,
+  numbers=none,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4,
+  frame=shadowbox
+}
