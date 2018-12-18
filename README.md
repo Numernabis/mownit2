@@ -10,4 +10,5 @@ Laboratorium z przedmiotu _Metody obliczeniowe w nauce i technice 2_
 | 5  | 23.11.2018   | :heavy_check_mark: |
 | 6  | 30.11.2018   | :heavy_check_mark: |
 | 7  | 07.12.2018   |  |
-
+| 8  | 14.12.2018   |  |
+| 9  | 21.12.2018   |  |
