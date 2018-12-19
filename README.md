@@ -1,8 +1,10 @@
 # mownit2
 Laboratorium z przedmiotu _Metody obliczeniowe w nauce i technice 2_
 
-Niektóre notebooki s¹ du¿e, nie renderuj¹ siê na githubie.
-Wówczas zapraszam tutaj: http://nbviewer.jupyter.org/github/Numernabis/mownit2/tree/master/
+NiektÃ³re notebooki sÄ… duÅ¼e i nie renderujÄ… siÄ™ na githubie.
+WÃ³wczas zapraszam tutaj: 
+
+http://nbviewer.jupyter.org/github/Numernabis/mownit2/tree/master/
 
 | Lab| Date         | Done |
 |---:|:-------------| ----:|
