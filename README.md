@@ -17,4 +17,6 @@ http://nbviewer.jupyter.org/github/Numernabis/mownit2/tree/master/
 | 7  | 07.12.2018   | :heavy_check_mark: |
 | 8  | 14.12.2018   | :heavy_check_mark: |
 | 9  | 04.01.2019   | :heavy_check_mark: |
-| 10 | 11.01.2019   | :shipit: |
+| 10 | 11.01.2019   | :heavy_check_mark: |
+| 11 | 18.01.2019   | :heavy_check_mark: |
+| 12 | 25.01.2019   | :shipit: |
